@@ -2,6 +2,17 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "rest client is a handy tool",
+  "content": "test notes",
+  "important": false,
+  "userID": "6753fb5579389c77c3c58efc"
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJpZCI6IjY3NTQwYTQ2NGU0NmI5NmM4MGU4OWNiMCIsImlhdCI6MTczMzU2MjU0MX0.1p5-npKxRCjHoOjpCHoR-bZpzRm9hjnP3YOeH-mWQss
+
+{
+  "content": "test notes",
   "important": false
 }
